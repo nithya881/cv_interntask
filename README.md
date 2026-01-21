@@ -24,6 +24,8 @@ git clone https://github.com/nithya881/cv_interntask.git
 pip install opencv-python torch torchvision numpy
 
 3. Ensure you have a short vedio.
+   
+eg:The test video used was a short traffic driving clip downloaded from YouTube.
 
 ---
 
