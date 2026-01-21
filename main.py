@@ -9,7 +9,7 @@ model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 model.conf = 0.5  # detection confidence threshold
 
 # Open the traffic video
-video_capture = cv2.VideoCapture('task.mp4')
+video_capture = cv2.VideoCapture('traff.mp4')
 
 # Setup for FPS calculation
 start_time = time.time()
